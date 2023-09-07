@@ -1,0 +1,21 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "A simple shopping list built with the MERN stack.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Lily Yang",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
