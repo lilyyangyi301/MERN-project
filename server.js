@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
+const items = require('./routes/api/items');
+
 const app = express();
 
 // Bodyparser Middleware
@@ -20,3 +22,4 @@ mongoose.connect(db)
 
   app.listen(port, () => console.log(`Server started on port ${port}`))
   
+// app.listen(port, () => console.log(`Server started on port ${port}`));
